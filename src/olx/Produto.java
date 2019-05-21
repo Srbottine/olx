@@ -14,7 +14,12 @@ public class Produto {
     String detalhes;
     int status;
     int valor;
+    Categoria cat;
 
+    public Produto(Categoria cat) {
+        this.cat = cat;
+    }
+    
     public Produto(String nome, String detalhes, int status, int valor) {
         this.nome = nome;
         this.detalhes = detalhes;

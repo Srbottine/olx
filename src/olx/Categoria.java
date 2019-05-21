@@ -12,6 +12,12 @@ package olx;
 public class Categoria {
     String descricao;
     String nome;
+
+    public Categoria(String descricao, String nome) {
+        this.descricao = descricao;
+        this.nome = nome;
+    }
+    
     
     Produto pesquisaCategoria() {
         

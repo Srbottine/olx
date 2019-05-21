@@ -49,7 +49,12 @@ public class Usuário {
     }
     
     
-    public Usuário cadastroUsuario() {
+    public Usuário cadastroUsuario(String name, double cpefi) {
+        System.out.println("CADASTRO");
+        System.out.println("");
+        System.out.println("Digite o nome: ");
+        name = scan.next(nome);
+        System.out.println("Digite o CPF: ");
         
     }
     

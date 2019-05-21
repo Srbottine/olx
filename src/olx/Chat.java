@@ -14,6 +14,11 @@ import javafx.scene.chart.PieChart;
 public class Chat {
     String texto;
     PieChart.Data data;
+
+    public Chat(String texto, PieChart.Data data) {
+        this.texto = texto;
+        this.data = data;
+    }
     
     String mandaTexto() {
         
